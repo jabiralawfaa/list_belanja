@@ -1,16 +1,75 @@
-# belanja
+Lengkapi kode di class HomePage# Membangun Navigasi di Flutter
 
-A new Flutter project.
+## Mempersiapkan Project baru
 
-## Getting Started
+Cara untuk membuatnya sama dengan sebelumnya tapibedanya pada susunan folder saja, seperti berikut
 
-This project is a starting point for a Flutter application.
+![](laporan/Prak2-5_1.png)
 
-A few resources to get you started if this is your first Flutter project:
+## Mendefinisikan Route
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+buat file `home_page.dart` dan `item_page.dart` dengan kode berikut
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+![](laporan/Prak2-5_2.png)
+
+![](laporan/Prak2-5_3.png)
+
+## Lengkapi Kode di main.dart
+
+buat inisiasi route di main.dart seperti berikut
+
+![](laporan/Prak2-5_4.png)
+
+## Membuat data model
+
+buat `item.dart` di folder models
+
+![](laporan/Prak2-5_5.png)
+
+## Lengkapi kode di class HomePage
+
+buat variabel items menggunakan objek `List<Item>` berisi list barang jualan
+
+![](laporan/Prak2-5_6.png)
+
+## Membuat ListView dan itemBuilder
+
+kita disini membuat card masing-masing data itemnya
+
+![](laporan/Prak2-5_7.png)
+
+jadi hasilnya seperti berikut
+
+![](laporan/Prak2-5_8.png)
+
+## Menambahkan aksi pada ListView
+
+kita bisa masukan navigatornya disini
+
+![](laporan/Prak2-5_9.png)
+
+![](laporan/Prak2-5_10.png)
+
+![](laporan/Prak2-5_11.png)
+
+jadi jika di klik berhasil seperti berikut
+
+![](laporan/Prak2-5_12.png)
+
+## praktikum percobaan
+
+![](laporan/Prak2-5_13.png)
+
+![](laporan/Prak2-5_14.png)
+
+![](laporan/Prak2-5_15.png)
+
+![](laporan/Prak2-5_16.png)
+
+![](laporan/Prak2-5_17.png)
+
+hasilnya menjadi seperti ini
+
+![homepage](laporan/Prak2-5_18.png)
+
+![itempage](laporan/Prak2-5_19.png)
